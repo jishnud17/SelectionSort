@@ -1,5 +1,7 @@
-
-var integers:[String] = ["zebra", "mango", "gorilla", "nanny"]
+var integers = [String]()
+while let line = readLine() {
+    integers.append(line)
+}
 var last_position = integers.count
 var z = integers.count - 1
 var swapv = ""
@@ -23,7 +25,6 @@ for i in 0..<last_position - 1 {
     
 
 }
-print(integers)
 
 
 
